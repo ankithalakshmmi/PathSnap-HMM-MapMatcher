@@ -1,0 +1,7 @@
+{
+  "beta": 3,
+  "w_e": 0.25,
+  "gap_s": 60,
+  "unreach_pen": -100,
+  "max_route_m": 2000.0
+}
