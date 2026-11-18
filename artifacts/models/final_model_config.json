@@ -1,0 +1,34 @@
+{
+  "final_model": "lgbm_tuned",
+  "params": {
+    "n_estimators": 750,
+    "learning_rate": 0.012662010130745843,
+    "num_leaves": 140,
+    "min_child_samples": 273,
+    "subsample": 0.6830708851043994,
+    "colsample_bytree": 0.9539079799583546,
+    "reg_lambda": 1.1538216785065312,
+    "reg_alpha": 0.15239578373279747,
+    "subsample_freq": 1
+  },
+  "features": [
+    "dist",
+    "dist_rank",
+    "dist_minus_min",
+    "dist_ratio",
+    "win_dist_mean",
+    "win_dist_max",
+    "heading_diff",
+    "cos_heading",
+    "heading_valid",
+    "heur_rank",
+    "speed",
+    "dt_prev",
+    "arc_len",
+    "proj_frac",
+    "proj_end",
+    "n_cands",
+    "conn_prev",
+    "conn_next"
+  ]
+}
