@@ -1,0 +1,52 @@
+{
+  "trips_per_partition": {
+    "train": 80,
+    "student_test": 10
+  },
+  "gps_points": {
+    "count": {
+      "student_test": 10.0,
+      "train": 80.0
+    },
+    "mean": {
+      "student_test": 1916.0,
+      "train": 2605.2
+    },
+    "std": {
+      "student_test": 1335.4,
+      "train": 3312.3
+    },
+    "min": {
+      "student_test": 262.0,
+      "train": 361.0
+    },
+    "25%": {
+      "student_test": 917.8,
+      "train": 945.8
+    },
+    "50%": {
+      "student_test": 1420.0,
+      "train": 1529.0
+    },
+    "75%": {
+      "student_test": 2872.0,
+      "train": 2792.8
+    },
+    "max": {
+      "student_test": 3958.0,
+      "train": 19313.0
+    }
+  },
+  "invalid_rows_total": 0,
+  "dup_timestamps_total": 0,
+  "out_of_order_total": 0,
+  "frac_steps_1s_mean": 0.9431509469911573,
+  "trips_with_gap_gt_10s": 42,
+  "max_gap_s": 153064.0,
+  "route_disconnected_steps_total": 14,
+  "trips_unreliable_labels_gt_5pct": [
+    "00000002",
+    "00000033",
+    "00000054"
+  ]
+}
