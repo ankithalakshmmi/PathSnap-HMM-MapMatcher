@@ -111,7 +111,7 @@ def evaluate(params):
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.bar(x - w / 2, summ.loc["classifier_only", metrics], w, label="classifier only")
     ax.bar(x + w / 2, summ.loc["classifier_hmm", metrics], w, label="classifier + HMM")
-    ax.set_xticks(x, metrics); ax.set_ylim(0, 1.05); ax.legend(); ax.set_title("Student-test: classifier vs HMM")
+    ax.set_xticks(x, metrics); ax.set_ylim(0, 1.25); ax.legend(loc="upper center", ncol=2); ax.set_title("Student-test: classifier vs HMM")
     plt.tight_layout(); plt.savefig(C.PLOTS / "hmm_vs_classifier.png", dpi=150); plt.close()
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.bar(piv.index.astype(str), piv["delta"], color=np.where(piv["delta"] >= 0, "#2ca02c", "#d62728"))
